@@ -42,9 +42,9 @@ def embed_data(image_path, data, output_image_path):
 
 if __name__ == "__main__":
     # Пример использования функции
-    image_path = input("Введите путь к исходному изображению: ")
-    encrypted_data = input("Введите зашифрованные данные для встраивания: ")
-    output_image_path = input("Введите путь для сохранения нового изображения: ")
+    image_path = "./data/image_1.jpeg"
+    encrypted_data = "hello"
+    output_image_path = "./data/image_4.jpeg"
 
     try:
         embed_data(image_path, encrypted_data, output_image_path)
